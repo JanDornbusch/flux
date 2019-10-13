@@ -11,4 +11,4 @@
                    (doto doc (.addField (name k) m))
                    doc)
                  (doto doc (.addField (name k) v))))
-             (SolrInputDocument.) document-map))
+             (SolrInputDocument. (java.util.HashMap.)) document-map))
